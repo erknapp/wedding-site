@@ -8,7 +8,17 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/public/index.html");
 });
 
-app.get("/rsvp")
+app.get("/location", function(req, res){
+    res.sendFile(__dirname + "/public/location.html");
+});
+
+app.get("/rsvp", function(req, res){
+    res.sendFile(__dirname + "/public/rsvp.html");
+});
+
+app.get("/contact", function(req, res){
+    res.sendFile(__dirname + "/public/contact.html");
+});
 
 app.listen(port, () => {
     console.log("Listening on port " + port);
