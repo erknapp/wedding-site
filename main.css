@@ -1,0 +1,35 @@
+/*
+    ==================
+    Navigation Section
+    ================== 
+*/
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+    background: mintcream;
+}
+
+nav a:link, nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+    color: mistyrose;
+}
+
+
+/*
+    ==================
+    Heading Section
+    ================== 
+*/
+
+h1 {
+    text-align: center;
+}
