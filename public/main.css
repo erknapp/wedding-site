@@ -27,7 +27,7 @@ nav li {
     display: inline-block;
     width: 24%;
     padding: 1vh 0;
-    background: mintcream;
+    background: mistyrose;
 }
 
 nav li a {
@@ -35,12 +35,12 @@ nav li a {
 }
 
 nav a:link, nav a:visited {
-    color: black;
+    color: dimgray;
     text-decoration: none;
 }
 
 nav a:hover, nav a:active {
-    color: mistyrose;
+    color: lightpink;
 }
 
 
@@ -54,6 +54,7 @@ h1, h2 {
     font-weight: normal;
     text-align: center;
     font-family: "Indie Flower", cursive;
+    color: dimgray;
 }
 
 h1 {
@@ -79,4 +80,5 @@ article p {
     padding: 10% 10% 0;
     font-size: 1em;
     line-height: 1.5em;
+    color: dimgray;
 }
