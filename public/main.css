@@ -8,6 +8,16 @@
 
 /*
     ==================
+    Body Section
+    ================== 
+*/
+
+body {
+    background: ghostwhite;
+}
+
+/*
+    ==================
     Navigation Section
     ================== 
 */
@@ -27,11 +37,12 @@ nav li {
     display: inline-block;
     width: 24%;
     padding: 1vh 0;
-    background: mistyrose;
+    background: lightpink;
 }
 
 nav li a {
     display: block;
+    text-align: center;
 }
 
 nav a:link, nav a:visited {
@@ -40,7 +51,7 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    color: lightpink;
+    color: ghostwhite;
 }
 
 
