@@ -93,3 +93,9 @@ article p {
     line-height: 1.5em;
     color: dimgray;
 }
+
+article li {
+    list-style: none;
+    text-align: center;
+    margin: 10vh 0;
+}
