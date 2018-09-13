@@ -17,7 +17,7 @@ app.get("/rsvp", function(req, res){
 });
 
 app.get("/contact", function(req, res){
-    res.sendFile(__dirname + "/public/contact.html");
+    res.sendFile(__dirname + "/public/registry.html");
 });
 
 app.use(function (err, req, res, next) {
